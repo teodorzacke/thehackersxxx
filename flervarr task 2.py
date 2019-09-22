@@ -11,7 +11,7 @@ from numpy import *
 
 #Task 2
 def func(x):
-    return sqrt(4*x**2+9*x**6)
+    return sqrt(4*x**2+9*x**4)
 
 q = integrate.quad(func, -2, 1)
 print(q)
