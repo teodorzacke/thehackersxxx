@@ -31,3 +31,10 @@ def ader(f=f_z, x=0, y=0, h=1e-8, k=1e-4):
     X, Y = der(f, x, y, h)
     
     return xx, yy, yx, X, Y
+
+
+#1x -1/3     https://www.wolframalpha.com/input/?i=-1%2F%281+%2B+ProductLog%282+e%5E%282+%29%29%29
+#1y -2/3     https://www.wolframalpha.com/input/?i=-2%2F%281+%2B+ProductLog%282+e%5E%282%29%29%29
+#xx -4/27    https://www.wolframalpha.com/input/?i=-%282+ProductLog%282+e%5E%282+%29%29%29%2F%281+%2B+ProductLog%282+e%5E%282+%29%29%29%5E3
+#xy -8/27    https://www.wolframalpha.com/input/?i=-%284+ProductLog%282+e%5E%282%29%29%29%2F%281+%2B+ProductLog%282+e%5E%282%29%29%29%5E3
+#yy -16/27   https://www.wolframalpha.com/input/?i=-%288+ProductLog%282+e%5E%282+%29%29%29%2F%281+%2B+ProductLog%282+e%5E%282%29%29%29%5E3
